@@ -1,4 +1,4 @@
-# cj-app
+# Slack Clone using REACT.js
 React SPA
 
 IMPORTANT NOTES (In case Backend Service API Integration is required):
