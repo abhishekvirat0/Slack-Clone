@@ -1,0 +1,61 @@
+.login{
+    height: 100vh;
+    background-color: var(--slack-color);
+    display: grid;
+    place-items: center;
+}
+
+.login__container {
+    padding: 100px;
+    text-align: center;
+    background-color: var(--slack-color);
+    border-radius: 10px;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 
+    0 1px 2px rgba(0, 0, 0, 0.24); */
+    /* box-shadow: -15px -15px 15px rgba(255, 255, 255, .2),
+                15px 15px 15px rgba(0, 0, 0, 0.1) */
+    box-shadow: 9px 9px 16px #0a0b0c, -9px -9px 16px #0a0b0c;
+    /* box-shadow: 40px 40px 80px rgba(55, 84, 170, 0.1), -40px -40px 80px #3f0f40, inset 5px 5px 20px rgba(0, 0, 0, 0.5); */
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600;700&display=swap');
+.login__container > h1{
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46px;
+    max-width: 700px;
+    text-align: center;
+    letter-spacing: -.75px;
+    margin-bottom: 10px;
+}
+
+.login__container  > p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 32px;
+    color: #FFB02E;
+    max-width: 700px;
+    text-align: center;
+}
+
+.login__container > img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login__container > button{
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-top: 50px;
+    /* by default uppercase inherit means stays how I wrote */
+    text-transform: inherit !important;
+    background-color: #03B67C;
+    color: white;
+}
+
+.login__container > button:hover{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: #FFB02E;
+    color: white;
+}
