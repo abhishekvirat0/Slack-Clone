@@ -1,8 +1,6 @@
 # Slack Clone using REACT.js
 
-IMPORTANT NOTES (In case Backend Service API Integration is required):
-
-    The project is still in development phase. uses cloud Firestore for message purpose and firebase authentication for users authentication.
+### The project is still in development phase. uses cloud Firestore for message purpose and firebase authentication for users authentication.
 
 PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
 
@@ -16,3 +14,4 @@ PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
             - npm install
             - npm run build
     3. Please make sure that your project is built successfully.
+
