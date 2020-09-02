@@ -2,6 +2,8 @@
 
 ### The project is still in development phase. uses cloud Firestore for message purpose and firebase authentication for users authentication.
 
+##### If you find any issue, pull requests is appreciated.
+
 PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
 
     Pre-requisites:
